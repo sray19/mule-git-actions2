@@ -14,7 +14,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.6.1</app.runtime>
-		<mule.maven.plugin.version>4.1.0</mule.maven.plugin.version>
+		<mule.maven.plugin.version>4.1.1</mule.maven.plugin.version>
 	</properties>
 
 	<build>
@@ -35,7 +35,7 @@
                   <muleVersion>4.3.0</muleVersion>
                   <username>${PLATFORM_USERNAME}</username>
                   <password>${PLATFORM_PASSWORD}</password>
-                  <applicationName>hello-world-SOMETHING-UNIQUE</applicationName>
+                  <applicationName>mule-git-actions2-dev</applicationName>
                   <environment>Sandbox</environment>
                   <workers>1</workers>
                   <workerType>MICRO</workerType>
