@@ -33,15 +33,15 @@
                 <classifier>mule-application</classifier>
                 <cloudHubDeployment>
                   <muleVersion>4.3.0</muleVersion>
-                  <username>${env.PLATFORM_USERNAME}</username>
-                  <password>${env.PLATFORM_PASSWORD}</password>
+                  <username>${PLATFORM_USERNAME}</username>
+                  <password>${PLATFORM_PASSWORD}</password>
                   <applicationName>hello-world-SOMETHING-UNIQUE</applicationName>
                   <environment>Sandbox</environment>
                   <workers>1</workers>
                   <workerType>MICRO</workerType>
                   <objectStoreV2>true</objectStoreV2>
                   <region>us-east-2</region>
-                  <businessGroupId>${env.BUS_GROUP_ID}</businessGroupId>
+                  <businessGroupId>${BUS_GROUP_ID}</businessGroupId>
                 </cloudHubDeployment>
               </configuration>
             </plugin>
